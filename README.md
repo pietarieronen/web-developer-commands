@@ -44,7 +44,7 @@ Useful commands for useful tools
 | cd                    | go to home              |
 | cd ..                 | one level up            |
 | cd ../..              | two levels up           |
-| mkdir newdir          | create new directory    |
+| mkdir <newdir>        | create new directory    |
 | rm                    | remove file             |
 | mv                    | move or rename          |
 | rm -rf                | remove directory        |
