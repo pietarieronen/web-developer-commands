@@ -26,13 +26,14 @@ Useful commands for useful tools
 | ----------------------------- | ------------------------- |
 | init                          | initialize git repo       |
 | checkout                      | switch branch             |
-| branch -m <branch>            | rename branch             |
+| branch -m <newname>           | rename branch             |
 | add .                         | add all                   |
 | commit -m "commit"            | commit                    |
 | push -u origin <branch>       | push and make default     |
 | ssh -T git@github.com         | test ssh pipeline         |
 | push origin --delete <branch> | delete remote branch      |
 | branch -D <branch>            | force delete local branch |
+| pull --rebase origin <branch> | rebase                    |
 
 ## **T**
 ### **TERMINAL**
@@ -71,6 +72,3 @@ Useful commands for useful tools
 | alt + shift + down        | copy line                  |
 | alt + shift + left/right  | select word                |
 | cmd + shift + /           | comment line               |
-
-
-
