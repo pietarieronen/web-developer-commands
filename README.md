@@ -6,6 +6,18 @@ Useful shortcuts for useful web developer tools.
 
 ## **B**
 
+### **BROWSER**
+
+| Command            | Description             |
+| ------------------ | ----------------------- |
+| CMD + T            | open new tab            |
+| CMD + N            | open new window         |
+| CMD + W            | close current tab       |
+| CMD + SHIFT + T    | reopen closed tab       |
+| CMD + L            | jump to search bar      |
+| CTRL + TAB         | navigate tabs forward   |
+| CTRL + SHIFT + TAB | navigate tabs backwords |
+
 ## **C**
 
 ## **D**
@@ -39,7 +51,7 @@ Useful shortcuts for useful web developer tools.
 | CMD + .         | hide tools            |
 | SHIFT + 2       | zoom to selection     |
 | CMD + +/-       | zoom in and out       |
-| V               | move                  |
+| V               | default               |
 | F               | frame                 |
 | R               | rectangle             |
 | I               | line                  |
@@ -128,6 +140,7 @@ Useful shortcuts for useful web developer tools.
 | ls -a                 | list all                 |
 | man + command         | show command manual      |
 | ssh -T git@github.com | test github SSH pipeline |
+| code .                | open folder in VS Code   |
 
 ## **U**
 
