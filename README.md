@@ -30,12 +30,14 @@ Useful shortcuts for useful web developer tools.
 
 ### **DOCKER**
 
-| Command                                                          | Description                 |
-| ---------------------------------------------------------------- | --------------------------- |
-| run --name <container-name> -dit -p 27017:27017 --rm mongo:4.4.1 | init docker mongo container |
-| ps                                                               | see running containers      |
-| exec -it <container-name> mongo                                  | execute container           |
-| use <db-name>                                                    | create and name new db      |
+| Command                                                                                            | Description             |
+| -------------------------------------------------------------------------------------------------- | ----------------------- |
+| run --name <container-name> -dit -p 27017:27017 --rm mongo:4.4.1                                   | init mongo container    |
+| ps                                                                                                 | see running containers  |
+| exec -it <container-name> mongo                                                                    | execute container       |
+| use <db-name>                                                                                      | create and name new db  |
+| run --name postgress-demo -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d --rm postgres:13.0 | init postgres container |
+| exec -it -u postgres postgress-demo psql                                                           | execute container       |
 
 ## **E**
 
@@ -67,19 +69,21 @@ Useful shortcuts for useful web developer tools.
 
 ### **GIT**
 
-| Command                       | Description               |
-| ----------------------------- | ------------------------- |
-| init                          | initialize git repo       |
-| checkout                      | switch branch             |
-| fetch                         | fetch remote branches     |
-| branch -m <newname>           | rename branch             |
-| add .                         | add all                   |
-| commit -m "commit"            | commit                    |
-| push -u origin <branch>       | push and make default     |
-| ssh -T git@github.com         | test ssh pipeline         |
-| push origin --delete <branch> | delete remote branch      |
-| branch -D <branch>            | force delete local branch |
-| pull --rebase origin <branch> | rebase                    |
+| Command                                     | Description                  |
+| ------------------------------------------- | ---------------------------- |
+| init                                        | initialize git repo          |
+| checkout                                    | switch branch                |
+| fetch                                       | fetch remote branches        |
+| branch -m <newname>                         | rename branch                |
+| add .                                       | add all                      |
+| commit -m "commit"                          | commit                       |
+| push -u origin <branch>                     | push and make default        |
+| ssh -T git@github.com                       | test ssh pipeline            |
+| push origin --delete <branch>               | delete remote branch         |
+| branch -D <branch>                          | force delete local branch    |
+| pull --rebase origin <branch>               | rebase                       |
+| git merge --strategy-option=theirs <branch> | merge and accept all changes |
+| :wq                                         | write quit                   |
 
 ## **H**
 
