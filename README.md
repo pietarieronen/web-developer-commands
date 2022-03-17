@@ -69,21 +69,22 @@ Useful shortcuts for useful web developer tools.
 
 ### **GIT**
 
-| Command                                     | Description                  |
-| ------------------------------------------- | ---------------------------- |
-| init                                        | initialize git repo          |
-| checkout                                    | switch branch                |
-| fetch                                       | fetch remote branches        |
-| branch -m <newname>                         | rename branch                |
-| add .                                       | add all                      |
-| commit -m "commit"                          | commit                       |
-| push -u origin <branch>                     | push and make default        |
-| ssh -T git@github.com                       | test ssh pipeline            |
-| push origin --delete <branch>               | delete remote branch         |
-| branch -D <branch>                          | force delete local branch    |
-| pull --rebase origin <branch>               | rebase                       |
-| git merge --strategy-option=theirs <branch> | merge and accept all changes |
-| :wq                                         | write quit                   |
+| Command                                     | Description                     |
+| ------------------------------------------- | ------------------------------- |
+| init                                        | initialize git repo             |
+| checkout                                    | switch branch                   |
+| checkout -b <newbranch>                     | create and switch to new branch |
+| fetch                                       | fetch remote branches           |
+| branch -m <newname>                         | rename branch                   |
+| add .                                       | add all                         |
+| commit -m "commit"                          | commit                          |
+| push -u origin <branch>                     | push and set upstream           |
+| ssh -T git@github.com                       | test ssh pipeline               |
+| push origin --delete <branch>               | delete remote branch            |
+| branch -D <branch>                          | force delete local branch       |
+| pull --rebase origin <branch>               | rebase                          |
+| git merge --strategy-option=theirs <branch> | merge and accept all changes    |
+| :wq                                         | write quit                      |
 
 ## **H**
 
@@ -152,22 +153,23 @@ Useful shortcuts for useful web developer tools.
 
 ### **VS CODE**
 
-| Command                         | Description               |
-| ------------------------------- | ------------------------- |
-| cmd + P                         | open command line         |
-| cmd + SHIFT + P                 | open command line trigger |
-| cmd + ,                         | open settings             |
-| cmd + J                         | taggle terminal           |
-| cmd + B                         | taggle explorer           |
-| cmd + D                         | select same words         |
-| cmd + click                     | go to original element    |
-| cmd + shift + F                 | find in all folders       |
-| cmd + shift + P                 | open preferences          |
-| cmd + shift + P > Shell Command | shell command: "code ."   |
-| alt + shift + down              | copy line                 |
-| alt + shift + left/right        | select word               |
-| cmd + shift + /                 | comment line              |
-| /\*\* + enter                   | commenting a function     |
+| Command                         | Description                           |
+| ------------------------------- | ------------------------------------- |
+| CMD + P                         | open command line                     |
+| CMD + SHIFT + P                 | open command line trigger             |
+| CMD + ,                         | open settings                         |
+| CMD + J                         | taggle terminal                       |
+| CMD + B                         | taggle explorer                       |
+| CMD + K + W                     | close all open tabs/files             |
+| CMD + D                         | select same words                     |
+| CMD + click                     | go to original element                |
+| CMD + SHIFT + F                 | find in all folders                   |
+| CMD + SHIFT + P                 | open preferences                      |
+| CMD + SHIFT + P > Shell Command | shell command: "code ."               |
+| ALT + SHIFT + down              | copy line                             |
+| ALT + SHIFT + left/right        | select word                           |
+| CMD + SHIFT + /                 | comment line                          |
+| `/** */`                        | JS Doc, adding comments to a function |
 
 ## **W**
 
