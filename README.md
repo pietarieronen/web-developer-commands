@@ -84,7 +84,7 @@ Useful shortcuts for useful web developer tools.
 | checkout -b `<new_branch>`                    | create and switch to new branch |
 | fetch                                         | fetch remote branches           |
 | branch -m `<name>`                            | rename branch                   |
-| add .                                         | add all                         |
+| add .                                         | stage                           |
 | commit -m "commit"                            | commit                          |
 | push -u origin `<branch>`                     | push and set upstream           |
 | ssh -T git@github.com                         | test ssh pipeline               |
@@ -95,6 +95,8 @@ Useful shortcuts for useful web developer tools.
 | :wq                                           | write quit                      |
 | reset --soft HEAD~5                           | delete last 5 commits           |
 | config --global alias.aliasname "git command" | set an alias for a command      |
+| commit --amend -m "new commit text"           | edit last commit                |
+| add . + commit --amend --no-edit              | stage and commit with no edits  |
 
 # **H**
 
@@ -182,13 +184,14 @@ Useful shortcuts for useful web developer tools.
 | CMD + K + W                     | close all open tabs/files             |
 | CMD + D                         | select same words                     |
 | CMD + click                     | go to original element                |
-| CMD + SHIFT + F                 | find in all folders                   |
-| CMD + SHIFT + P                 | open preferences                      |
+| CMD + SHIFT + F                 | search all                            |
+| CMD + SHIFT + E                 | open explorer                         |
 | CMD + SHIFT + P > Shell Command | shell command: "code ."               |
 | ALT + SHIFT + down              | copy line                             |
 | ALT + SHIFT + left/right        | select word                           |
 | CMD + SHIFT + /                 | comment line                          |
 | `/** */`                        | JS Doc, adding comments to a function |
+| ALT + click                     | Multiple cursors                      |
 
 # **W**
 
