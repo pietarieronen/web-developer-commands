@@ -2,11 +2,19 @@
 
 Useful shortcuts for useful web developer tools.
 
-## **A**
+# **A**
 
-## **B**
+## **APACHE JMETER**
 
-### **BROWSER**
+- Java required
+
+| Command      | Description                                                 |
+| ------------ | ----------------------------------------------------------- |
+| sh jmeter.sh | open jmeter by running the command inside the bin directory |
+
+# **B**
+
+## **BROWSER**
 
 | Command            | Description             |
 | ------------------ | ----------------------- |
@@ -18,17 +26,17 @@ Useful shortcuts for useful web developer tools.
 | CTRL + TAB         | navigate tabs forward   |
 | CTRL + SHIFT + TAB | navigate tabs backwords |
 
-## **C**
+# **C**
 
-## **D**
+# **D**
 
-### **DISCORD**
+## **DISCORD**
 
 | Command | Description |
 | ------- | ----------- |
 | cmd + K | search      |
 
-### **DOCKER**
+## **DOCKER**
 
 | Command                                                                                            | Description             |
 | -------------------------------------------------------------------------------------------------- | ----------------------- |
@@ -39,11 +47,11 @@ Useful shortcuts for useful web developer tools.
 | run --name postgress-demo -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d --rm postgres:13.0 | init postgres container |
 | exec -it -u postgres postgress-demo psql                                                           | execute container       |
 
-## **E**
+# **E**
 
-## **F**
+# **F**
 
-### **FIGMA**
+## **FIGMA**
 
 | Command         | Description           |
 | --------------- | --------------------- |
@@ -65,93 +73,103 @@ Useful shortcuts for useful web developer tools.
 | SHIFT + A       | auto layout selection |
 | CMD + ALT + K   | create component      |
 
-## **G**
+# **G**
 
-### **GIT**
+## **GIT**
 
-| Command                                     | Description                     |
-| ------------------------------------------- | ------------------------------- |
-| init                                        | initialize git repo             |
-| checkout                                    | switch branch                   |
-| checkout -b <newbranch>                     | create and switch to new branch |
-| fetch                                       | fetch remote branches           |
-| branch -m <newname>                         | rename branch                   |
-| add .                                       | add all                         |
-| commit -m "commit"                          | commit                          |
-| push -u origin <branch>                     | push and set upstream           |
-| ssh -T git@github.com                       | test ssh pipeline               |
-| push origin --delete <branch>               | delete remote branch            |
-| branch -D <branch>                          | force delete local branch       |
-| pull --rebase origin <branch>               | rebase                          |
-| git merge --strategy-option=theirs <branch> | merge and accept all changes    |
-| :wq                                         | write quit                      |
+| Command                                       | Description                     |
+| --------------------------------------------- | ------------------------------- |
+| init                                          | initialize git repo             |
+| checkout                                      | switch branch                   |
+| checkout -b `<new_branch>`                    | create and switch to new branch |
+| fetch                                         | fetch remote branches           |
+| branch -m `<name>`                            | rename branch                   |
+| add .                                         | add all                         |
+| commit -m "commit"                            | commit                          |
+| push -u origin `<branch>`                     | push and set upstream           |
+| ssh -T git@github.com                         | test ssh pipeline               |
+| push origin --delete `<branch>`               | delete remote branch            |
+| branch -D `<branch>`                          | force delete local branch       |
+| pull --rebase origin `<branch>`               | rebase                          |
+| git merge --strategy-option=theirs `<branch>` | merge and accept all changes    |
+| :wq                                           | write quit                      |
+| reset --soft HEAD~5                           | delete last 5 commits           |
+| config --global alias.aliasname "git command" | set an alias for a command      |
 
-## **H**
+# **H**
 
-## **I**
+# **I**
 
-### **INSPECTOR**
+## **INSPECTOR**
 
 | Command         | Description          |
 | --------------- | -------------------- |
 | CMD + ALT + I   | open developer tools |
 | CMD + SHIFT + C | inspect element      |
 
-## **J**
+# **J**
 
-## **K**
+# **K**
 
-## **L**
+# **L**
 
-## **M**
+# **M**
 
-### **MySQL**
+## **MySQL**
 
 | Command                             | Description              |
 | ----------------------------------- | ------------------------ |
 | create procedure <procedure-name()> | create stored procedure  |
 | call <procedure-name()>             | execute stored procedure |
 
-## **N**
+# **N**
 
-## **O**
+# **O**
 
-## **P**
+# **P**
 
-## **Q**
+# **Q**
 
-## **R**
+# **R**
 
-## **S**
+# **S**
 
-## **T**
+# **T**
 
-### **TERMINAL**
+## **TEAMS**
 
-| Command               | Description              |
-| --------------------- | ------------------------ |
-| up / down arrows      | scroll commands history  |
-| cd                    | go to home               |
-| cd ..                 | one level up             |
-| cd ../..              | two levels up            |
-| mkdir <newdir-name>   | create new directory     |
-| rm                    | remove file              |
-| mv                    | move or rename           |
-| rm -rf                | remove directory         |
-| touch                 | create file              |
-| nano                  | text editor              |
-| pwd                   | print work directory     |
-| ls                    | list                     |
-| ls -a                 | list all                 |
-| man + command         | show command manual      |
-| ssh -T git@github.com | test github SSH pipeline |
-| code .                | open folder in VS Code   |
+| Command         | Description   |
+| --------------- | ------------- |
+| CMD + SHIFT + M | mute / unmute |
 
-## **U**
+## **TERMINAL**
 
-## **V**
+| Command                    | Description              |
+| -------------------------- | ------------------------ |
+| up / down arrows           | scroll commands history  |
+| cd                         | go to home               |
+| cd ..                      | one level up             |
+| cd ../..                   | two levels up            |
+| mkdir `<name>`             | create new directory     |
+| rm `<name>`                | remove file              |
+| mv `<old_name> <new_name>` | move or rename           |
+| rm -rf                     | remove directory         |
+| touch                      | create file              |
+| nano                       | text editor              |
+| pwd                        | print work directory     |
+| ls                         | list                     |
+| ls -a                      | list all                 |
+| man + command              | show command manual      |
+| ssh -T git@github.com      | test github SSH pipeline |
+| code .                     | open folder in VS Code   |
+| sudo nano /etc/paths       | edit configuration PATH  |
+| echo $PATH                 | see paths                |
 
-### **VS CODE**
+# **U**
+
+# **V**
+
+## **VS CODE**
 
 | Command                         | Description                           |
 | ------------------------------- | ------------------------------------- |
@@ -159,6 +177,7 @@ Useful shortcuts for useful web developer tools.
 | CMD + SHIFT + P                 | open command line trigger             |
 | CMD + ,                         | open settings                         |
 | CMD + J                         | taggle terminal                       |
+| CMD + I                         | trigger suggestions                   |
 | CMD + B                         | taggle explorer                       |
 | CMD + K + W                     | close all open tabs/files             |
 | CMD + D                         | select same words                     |
@@ -171,10 +190,10 @@ Useful shortcuts for useful web developer tools.
 | CMD + SHIFT + /                 | comment line                          |
 | `/** */`                        | JS Doc, adding comments to a function |
 
-## **W**
+# **W**
 
-## **X**
+# **X**
 
-## **Y**
+# **Y**
 
-## **Z**
+# **Z**
