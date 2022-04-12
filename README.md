@@ -77,26 +77,28 @@ Useful shortcuts for useful web developer tools.
 
 ## **GIT**
 
-| Command                                       | Description                     |
-| --------------------------------------------- | ------------------------------- |
-| init                                          | initialize git repo             |
-| checkout                                      | switch branch                   |
-| checkout -b `<new_branch>`                    | create and switch to new branch |
-| fetch                                         | fetch remote branches           |
-| branch -m `<name>`                            | rename branch                   |
-| add .                                         | stage                           |
-| commit -m "commit"                            | commit                          |
-| push -u origin `<branch>`                     | push and set upstream           |
-| ssh -T git@github.com                         | test ssh pipeline               |
-| push origin --delete `<branch>`               | delete remote branch            |
-| branch -D `<branch>`                          | force delete local branch       |
-| pull --rebase origin `<branch>`               | rebase                          |
-| git merge --strategy-option=theirs `<branch>` | merge and accept all changes    |
-| :wq                                           | write quit                      |
-| reset --soft HEAD~5                           | delete last 5 commits           |
-| config --global alias.aliasname "git command" | set an alias for a command      |
-| commit --amend -m "new commit text"           | edit last commit                |
-| add . + commit --amend --no-edit              | stage and commit with no edits  |
+| Command                                       | Description                                        |
+| --------------------------------------------- | -------------------------------------------------- |
+| config --list --show-origin                   | show global config                                 |
+| init                                          | initialize git repo                                |
+| checkout                                      | switch branch                                      |
+| checkout -b `<new_branch>`                    | create and switch to new branch                    |
+| fetch                                         | fetch remote branches                              |
+| branch -m `<name>`                            | rename branch                                      |
+| add .                                         | stage                                              |
+| commit -m "commit"                            | commit                                             |
+| push -u origin `<branch>`                     | push and set upstream                              |
+| ssh -T git@github.com                         | test ssh pipeline                                  |
+| push origin --delete `<branch>`               | delete remote branch                               |
+| branch -D `<branch>`                          | force delete local branch                          |
+| pull --rebase origin `<branch>`               | rebase                                             |
+| git merge --strategy-option=theirs `<branch>` | merge and accept all changes                       |
+| :wq                                           | write quit                                         |
+| reset --soft HEAD~5                           | delete last 5 commits                              |
+| config --global alias.aliasname "git command" | set an alias for a command                         |
+| commit --amend -m "new commit text"           | edit last commit                                   |
+| add . + commit --amend --no-edit              | stage and commit with no edits                     |
+| fetch origin + reset --hard origin/main       | hard reset local branch to the remote branch stage |
 
 # **H**
 
