@@ -99,6 +99,7 @@ Useful shortcuts for useful web developer tools.
 | commit --amend -m "new commit text"           | edit last commit                                   |
 | add . + commit --amend --no-edit              | stage and add to previous commit with no edits     |
 | fetch origin + reset --hard origin/main       | hard reset local branch to the remote branch stage |
+| log --all --graph --oneline --decorate        | git graph                                          |
 
 # **H**
 
@@ -127,6 +128,13 @@ Useful shortcuts for useful web developer tools.
 | call <procedure-name()>             | execute stored procedure |
 
 # **N**
+
+## **NODE**
+
+| Command                                                               | Description             |
+| --------------------------------------------------------------------- | ----------------------- |
+| require("crypto").createHash("sha256").update("string").digest("hex") | create Hash with Crypto |
+|                                                                       |                         |
 
 # **O**
 
@@ -194,12 +202,10 @@ Useful shortcuts for useful web developer tools.
 | CMD + SHIFT + /                 | comment line                          |
 | `/** */`                        | JS Doc, adding comments to a function |
 | ALT + click                     | Multiple cursors                      |
-
-| CMD + SHIFT + K | Delete line |
-
-| CMD + ENTER | Insert line above |
-
-| CMD + SHIFT + ENTER | Insert line below |
+| CMD + SHIFT + K                 | Delete line                           |
+| CMD + ENTER                     | Insert line above                     |
+| CMD + SHIFT + ENTER             | Insert line below                     |
+| ALT + Z                         | Wrap or unwrap text                   |
 
 # **W**
 
