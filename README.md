@@ -114,6 +114,13 @@ Useful shortcuts for useful web developer tools.
 
 # **J**
 
+## **JSON**
+
+| Command                                                        | Description                       |
+| -------------------------------------------------------------- | --------------------------------- |
+| ="{ ""url"":""" & A2 & """, ""destination"":""" & B2 & """ }," | from excel columns to json object |
+|                                                                |                                   |
+
 # **K**
 
 # **L**
@@ -156,26 +163,30 @@ Useful shortcuts for useful web developer tools.
 
 ## **TERMINAL**
 
-| Command                    | Description              |
-| -------------------------- | ------------------------ |
-| up / down arrows           | scroll commands history  |
-| cd                         | go to home               |
-| cd ..                      | one level up             |
-| cd ../..                   | two levels up            |
-| mkdir `<name>`             | create new directory     |
-| rm `<name>`                | remove file              |
-| mv `<old_name> <new_name>` | move or rename           |
-| rm -rf                     | remove directory         |
-| touch                      | create file              |
-| nano                       | text editor              |
-| pwd                        | print work directory     |
-| ls                         | list                     |
-| ls -a                      | list all                 |
-| man + command              | show command manual      |
-| ssh -T git@github.com      | test github SSH pipeline |
-| code .                     | open folder in VS Code   |
-| sudo nano /etc/paths       | edit configuration PATH  |
-| echo $PATH                 | see paths                |
+| Command                                        | Description                 |
+| ---------------------------------------------- | --------------------------- |
+| up / down arrows                               | scroll commands history     |
+| cd                                             | go to home                  |
+| cd ..                                          | one level up                |
+| cd ../..                                       | two levels up               |
+| mkdir `<name>`                                 | create new directory        |
+| rm `<name>`                                    | remove file                 |
+| mv `<old_name> <new_name>`                     | move or rename              |
+| rm -rf                                         | remove directory            |
+| touch                                          | create file                 |
+| nano                                           | text editor                 |
+| pwd                                            | print work directory        |
+| ls                                             | list                        |
+| ls -a                                          | list all                    |
+| man + command                                  | show command manual         |
+| ssh-keygen -t ed25519 -C "email (device name)" | create ssh keys             |
+| ssh -T git@github.com                          | test github SSH pipeline    |
+| code .                                         | open folder in VS Code      |
+| sudo nano /etc/paths                           | edit configuration PATH     |
+| echo $PATH                                     | see paths                   |
+| curl --head http://localhost:5000/slug         | http request with head flag |
+| firebase login:add                             | add firebase account        |
+| firebase login:use                             | switch firebase account     |
 
 # **U**
 
@@ -205,7 +216,7 @@ Useful shortcuts for useful web developer tools.
 | CMD + SHIFT + K                 | Delete line                           |
 | CMD + ENTER                     | Insert line above                     |
 | CMD + SHIFT + ENTER             | Insert line below                     |
-| ALT + Z                         | Wrap or unwrap text                   |
+| ALT + Z                         | Wrap / unwrap text                    |
 
 # **W**
 
